@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="../static/css/dashboard.css">
+    <title>Document</title>
+    <script defer src="{{url_for('static', filename='js/dashboard.js')}}"></script>
+</head>
+<body>
+    <div class="menu">
+        <h1>MarkBase</h1>
+        <div class="logout">
+            <a href="http://localhost:5000/upload">Upload</a>
+            <a href="http://localhost:5000/">logout</a>
+        </div>
+    </div>
+    <div class="wid">
+        <a id="upload" class="upload">Sube un Archivo</a>
+
+        <div id="files" class="files">Buscador de archivos</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <script defer src="{{url_for('static', filename='js/login.js')}}"></script>
+</head>
+<body>
+    <div class="login">
+        <h1>Inicia Sesión</h1>
+        <div class="data">
+            <div class="user">
+                <h2>Usuario</h2>
+                <input id="user" type="email">
+            </div>
+            <div class="user">
+                <h2>Contraseña</h2>
+                <input id="passwd" type="password">
+            </div>
+            <button id="button">Entrar</button>
+        </div>
+    </div>
+</body>
+</html>

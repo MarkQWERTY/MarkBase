@@ -1,0 +1,47 @@
+.menu{
+    background-color: aqua;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+*{
+    overflow-y: hidden;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+h1{
+    margin-left: 50px;
+    width: fit-content;
+}
+
+.upload{
+    width: 25vw;
+    height: 25vw;
+    margin: 100px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.logout{
+    display: flex;
+    margin-left: 70vw;
+}
+.logout a{
+    margin-left: 20px;
+}
+.files{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(33, 119, 141);
+}
+.wid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

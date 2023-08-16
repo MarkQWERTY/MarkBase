@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkBase</title>
+    <script defer src="{{url_for('static', filename='/js/login.js')}}"></script>
+    <style>
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload new File</h1>
+    <form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" id="file">
+        <input type="submit">
+    </form>
+</body>
+</html>
